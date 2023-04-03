@@ -89,16 +89,21 @@ padding: 50px 0;
 .box{
   display: flex;
   justify-content: space-between;
-  text-transform: capitalize;
- margin-bottom: 12px;
+  
   
   
    
 } 
+.box h3{
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  color: blue;
+}
 
 .card-body{
   display: flex;
   justify-content: space-between;
+  
   
 
 
@@ -108,9 +113,9 @@ padding: 50px 0;
 }
 .card-content{
   
-  width: 40%;
+  width: 46%;
   background-color: white;
-  padding: 16px 12px;
+  padding: 16px 14px;
   
 }
 .card-content ul{
@@ -197,9 +202,22 @@ margin-top: 6px;
     text-align: center;
 
    }
-   .technologist-content a{
+   .box{
+    padding: 0 12px;
+  
+  }
+  .card-body{
+    display: block;
+  }
+  .card-content{
+    margin: 18px 0;
     
-   }
+  }
+  .mx-hide{
+    display: none;
+  }
+   
+   
    
   }
   /*`lg` applies to medium devices (tablets, less than 992px) */
@@ -231,7 +249,6 @@ margin-top: 6px;
     display: none;
   }
 
- 
   }    
   
    
